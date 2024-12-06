@@ -1,0 +1,38 @@
+// Define color variables
+$color-dark-green: #16302B;
+$color-purple: #5C5D8D;
+$color-grey: #99A1A6;
+$color-light-green: #A8C69F;
+$color-lighter-green: #CCE2A3;
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: $color-grey;
+    background-color: $color-dark-green;
+}
+
+a {
+    color: $color-purple;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+button {
+    background-color: $color-light-green;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: $color-lighter-green;
+    }
+}
+
+// Utility classes
+.hide {
+    display: none;
+}

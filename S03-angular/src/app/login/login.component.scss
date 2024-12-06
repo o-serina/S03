@@ -1,13 +1,12 @@
 
-$background-main: #cc7fac;
-$gradient-blue: linear-gradient(#1845ad, #23a2f6);
-$gradient-orange: linear-gradient(to right, #750D37, #dc0073);
+$background-main: #16302b;
+
 $color-white: rgba(255, 255, 255, 0.13);
-$border-color: rgba(255, 255, 255, 0.1);
-$text-color: #ffffff;
-$placeholder-color: #e5e5e5;
-$input-bg-color: rgba(255, 255, 255, 0.07);
-$login-hover-bg: rgba(255, 255, 255, 0.47);
+$border-color: #A8C69F;
+$text-color: #16302B;
+$placeholder-color: #A8C69F;
+$input-bg-color: #5c5d8d00;
+$login-hover-bg: #5c5d8dc9;
 
 *, *:before, *:after {
   padding: 0;
@@ -27,25 +26,8 @@ body {
   left: 50%;
   top: 50%;
 
-  .shape {
-    height: 300px;
-    width: 300px;
-    position: absolute;
-    border-radius: 50%;
-
-    &:first-child {
-      background: $gradient-blue;
-      left: -80px;
-      top: -80px;
-    }
-
-    &:last-child {
-      background: $gradient-orange;
-      right: -30px;
-      bottom: -80px;
-    }
   }
-}
+
 
 form {
   height: 520px;
@@ -96,7 +78,7 @@ form {
   button {
     margin-top: 50px;
     width: 100%;
-    background-color: #1845ad00;
+    background-color: #A8C69F;
     color: $background-main;
     padding: 15px 0;
     font-size: 18px;
