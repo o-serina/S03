@@ -5,10 +5,11 @@ $color-grey: #99A1A6;
 $color-light-green: #A8C69F;
 $color-lighter-green: #CCE2A3;
 
+// Base styles
 body {
-    font-family: 'Arial', sans-serif;
-    color: $color-grey;
-    background-color: $color-dark-green;
+    background: $color-lighter-green;
+    color: $color-dark-green;
+    font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 a {

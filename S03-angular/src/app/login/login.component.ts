@@ -31,7 +31,7 @@ export class LoginComponent {
           next: (response) => {
             console.log('Login successful', response);
             if (response.token) {
-              this.authService.setToken(response.token); // Store token in localStorage or as configured
+              this.authService.setToken(response.token); // Store token in localStorage
               this.router.navigate(['/dashboard']); // Navigate to dashboard
             } else {
               console.error('Login failed: No token received');
